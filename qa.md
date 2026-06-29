@@ -28,13 +28,27 @@
 ## Local QA Checklist
 
 - Premium stack: Next/React, motion, GSAP ScrollTrigger, Lenis, lucide-react.
-- One H1: pending build/export check.
-- One primary form: pending build/export check.
-- Hero form present: pending screenshot check.
+- One H1: PASS.
+- One primary form: PASS.
+- Hero form present: PASS.
 - SEO H1 includes service and location: PASS, `Roofing contractor in Walsall...`.
 - Email-first enquiry route: PASS, `mailto:` route present with fallback recipient documented above.
 - Footer Facebook: PASS.
-- No unsupported upload/photo CTA: pending grep check.
-- No internal rejected phrases: pending grep check.
-- Desktop/mobile screenshots: pending.
-- Live deployment: pending.
+- No unsupported upload CTA: PASS.
+- No internal rejected phrases: PASS.
+- Desktop/mobile screenshots: PASS, `qa-hero-desktop.png`, `qa-hero-mobile.png`, `qa-gallery-desktop.png`, `qa-proof-desktop.png`, `qa-contact-footer-desktop.png`.
+- Live deployment: PASS, `https://deanooooooooo.github.io/lp-roofing-walsall/`.
+
+## Live QA
+
+- GitHub Pages status: PASS, built from `gh-pages`.
+- Live HTML: PASS, HTTP 200 and contains latest L.P Roofing Walsall markers.
+- CSS: PASS, HTTP 200.
+- Hero image: PASS, HTTP 200.
+- One H1: PASS.
+- One form: PASS.
+- Hero form present: PASS.
+- Email route: PASS, `mailto:` links present.
+- Footer Facebook: PASS.
+- Bad phrase grep: PASS.
+- Live screenshots: PASS, `qa-live-hero-desktop.png`, `qa-live-hero-mobile.png`, `qa-live-contact-footer-desktop.png`.
